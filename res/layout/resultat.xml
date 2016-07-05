@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal"
+    >
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+  >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="RESULTAT DU NIVEAU"
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="center"
+	    android:layout_marginBottom="7dp"
+	    />
+    </LinearLayout>
+    
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/texteVousAvezEu"
+    android:gravity = "center"
+    android:textSize = "30dip"
+    android:text="VOUS AVEZ EU:"
+    />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textePoints"
+    android:textSize = "45dip"
+    android:gravity = "center"
+    />
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+  >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Vous ne pouvez pas passer au niveau Supérieur."
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="center"
+	    android:layout_marginBottom="7dp"
+	    />
+    </LinearLayout>
+
+<Button 
+    android:layout_width = "fill_parent"
+    android:layout_height = "wrap_content"
+    android:gravity="center"
+    android:id = "@+id/btnNewPartie"
+    android:text=""
+    > 
+</Button>
+
+<Button 
+    android:layout_width = "fill_parent"
+    android:layout_height = "wrap_content"
+    android:gravity="center"
+    android:id = "@+id/btnQuitter"
+    android:text="Retour au menu principal"
+    > 
+</Button>
+
+<!--  <Button 
+    android:layout_width = "fill_parent"
+    android:layout_height = "wrap_content"
+    android:gravity="center"
+    android:id = "@+id/btnQuitter"
+    android:text="Quitter le Jeu"
+    > 
+</Button>-->
+
+</LinearLayout>

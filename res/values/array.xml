@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+    <string-array name="classe"> 
+        <item >Sixième ou 1ère Année</item> 
+        <item >Cinquième ou 2ème Année</item> 
+        <item >Quatrième ou 3ème Année</item> 
+        <item >Troisième ou 4ème Année</item> 
+        <item >Secondes</item> 
+        <item >Première</item> 
+        <item >Terminal</item> 
+    </string-array> 
+    
+    <integer-array name="classe_id"> 
+      <item >1</item> 
+      <item >2</item> 
+      <item >3</item> 
+      <item >4</item>
+      <item >5</item> 
+      <item >6</item> 
+      <item >7</item>  
+	</integer-array> 
+</resources> 

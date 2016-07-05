@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/conn_ordi"
+    android:soundEffectsEnabled="true">
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/texteAccueil1"
+	    android:text="L'ENTRAINEUR INFORMATIQUE\n Le Prof d'info débarque dans vos SmartPhones"
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="center"
+	    android:layout_marginBottom="20dp"
+	    />
+   </LinearLayout>
+   
+    <GridView
+        android:layout_height="wrap_content"
+        android:id="@+id/gridViewAccueil"
+        android:layout_width="match_parent"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:soundEffectsEnabled="true">
+    </GridView>
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="assambapasquier@yahoo.fr"
+	    android:autoLink="all"
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="bottom|center"
+	    android:layout_marginTop="10dp"
+	    />
+    
+  </LinearLayout>
+</LinearLayout>
+
+
+
+<!--  <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical"
+  android:gravity="center_vertical|center_horizontal">
+  <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/texteAccueil1"
+	    android:text="BIENVENU CHEZ L'ENTRAINEUR INFORMATIQUE"
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="center"
+	    />
+   </LinearLayout>
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    	<ImageView
+	        android:id="@+id/img_npartie"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/npartie"
+	         android:gravity="center"
+	        android:layout_marginLeft="40dp"
+	        />
+    	
+    	<ImageView
+	        android:id="@+id/img_load"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/load"
+	         android:gravity="center"
+	        android:layout_marginLeft="40dp"
+	        />
+  </LinearLayout>
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    	<ImageView
+	        android:id="@+id/img_apropos"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/apropos"
+	         android:gravity="center"
+	        android:layout_marginLeft="40dp"
+	        />
+	  	
+    	<ImageView
+	        android:id="@+id/img_aide"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/aide"
+	        android:gravity="center"
+	        android:layout_marginLeft="40dp"
+	        />
+	    
+	    
+  </LinearLayout>
+  
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    	<ImageView
+	        android:id="@+id/img_sortir"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/sortir"
+	         android:gravity="center"
+	        android:layout_marginLeft="40dp"
+	        />
+  </LinearLayout>
+  
+  <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="assambapasquier@yahoo.fr"
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="bottom|center"
+	    />
+    
+  </LinearLayout>
+</LinearLayout> -->
+
+

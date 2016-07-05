@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:soundEffectsEnabled="true"
+    >
+    
+  <EditText 
+    android:id="@+id/nom"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/status"
+    android:maxLength="6"
+    />
+  
+  <TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:text="Choisir votre Classe : "
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:textColor="#FF0000"
+    android:gravity="center"
+  />
+  <Spinner 
+        android:id="@+id/classe" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:entries="@array/classe" 
+        style="@style/StyleTexte">
+</Spinner> 
+  
+</LinearLayout>

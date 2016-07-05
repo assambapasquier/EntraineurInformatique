@@ -1,0 +1,198 @@
+la fibre optique transporte:
+6
+de l'eau
+du courant
+Aucune proposition
+de la lumière
+Concernant l’étendu des reseaux informatique qui est l’intrus?:
+6
+WLAN
+MAN
+RAN
+WIFI
+le bluetooth est un réseau de type:
+6
+RAN
+MAN
+WMAN
+PAN
+la WIMAX est un:
+6
+WPAN
+WLAN
+LAN
+WMAN
+le Switch est utilisé dans une topologie:
+6
+en bus
+maillée
+en anneau
+en étoile
+le switch est:
+6
+équivalent au HUB
+moins avantageux que le HUB
+moins utilisé que le HUB
+plus intéligent que le HUB
+qui sait reconnaitre le destinataire d'un message qu'il reçoit dans un réseau local?:
+6
+le HUB
+le Routeur
+Aucune proposition
+le SWITCH
+la disposition spatiale des équipements dans un réseau LAN est:
+6
+une topologie maillée
+une topologie logique
+un protocole
+une topologie physique
+le mode de circulation des informations entre postes dans un réseau est:
+6
+une topologie amorphe
+une topologie physique
+une topologie hybride
+une topologie logique
+un réseau qui s'éttend sur plus de 10km est un réseau de type:
+6
+MAN
+PAN
+LAN
+WAN
+les règles régissant la communication dans un réseau sont appelées:
+6
+lois
+politiques
+commodités
+protocoles
+qu'est-ce qui n'est pas une caracterisques d'une bon réseau?:
+6
+évolutivité
+qualité de service
+scalabilité
+non tolérence aux pannes
+combien de couches compte le modèle OSI?:
+6
+4
+5
+6
+7
+combien de couches compte le modèle TCP/IP?:
+6
+1
+2
+3
+4
+quelle couche n'est pas du modèle OSI?:
+6
+physique
+réseau
+transport
+logique
+le routeur permet:
+6
+la lisaion des terminaux en local
+la segmentation des paquets
+le filtrage des segments
+l'interconnexion des LAN
+l'unité de données dans la couche transport est:
+6
+le paquet
+le bit
+la donnée
+le segment
+l'unité de donnée dans la couche physique est:
+6
+le segment
+le paquet
+la donnée
+le bit
+le sigle IP signifie:
+6
+Internet Planning
+Intern process
+Internet Process
+Internet Protocol
+que signifie le CA du sigle CDMA/CA?:
+6
+Collision Availability
+Collision Adaptive
+Collision Additive
+Collision Avoidance
+parmi les adresses IP suivantes, laquelle n'est pas correcte?:
+6
+192.168.21.255
+193.25.24.200
+00111101.10001101.11001000.11111100
+192.256.1.100
+OSI signifie:
+6
+Over System Internet
+Open Software InterConnection
+Over System Internet
+Open System InterConnection
+CSMA/CD signifie:
+6
+Carrier Sense Mono Access/Cell Detection
+Carrier Sense Modulation Access/Cell Detection
+Cell System Mono Access/Collision Detection
+Carrier Sense Multiple Access/Collision Detection
+quel équipement n'est pas un terminal dans un réseau Informatique?:
+6
+un IPhone
+un LAPTOP
+une imprimante
+un routeur
+l'adresse iP 192.168.1.100 est de classe:
+6
+A
+B
+Aucune Proposition
+C
+le serveur DNS permet:
+6
+la résolution des adresses virtuelles
+la résolution des adresses privées
+la transmission des paquets
+la résolution des noms de domaines
+DNS signifie:
+6
+Domain Name Service
+Domain Name Save
+Domain Name Software
+Domain Name System
+le serveur DHCP est utilisé pour:
+6
+l'attribution statique des adresses IP
+l'attribution statique et dynamique des adresses IP
+le filtrage des adresses IP
+l'attribution dynamique des adresses IP
+le serveur SMTP est utilisé pour:
+6
+le téléchargement
+la navigation Internet
+la messagerie instantanée
+la messagerie électronique
+Whatsapp est une application:
+6
+de navigation Internet
+de téléchargement de fichiers
+Aucune proposition
+de messagerie instantanée
+la commande IPCONFIG permet:
+6
+d'obtenir une adresse IP
+de rechercher les serveur DHCP
+de supprimer une adresse IP
+de consulter les paramètres IP
+La couche réseau permet:
+6
+le transport
+la segmentation
+la désegmentation
+le routage
+La passerelle est un périphérique:
+6
+de broadcast
+de surveillance
+d'administration réseau
+d'entrée et sortie du réseau local

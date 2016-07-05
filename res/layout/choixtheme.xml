@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical">
+  <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/texteAccueil1"
+	    android:text="CHOISISSEZ VOTRE THEME DE JEU"
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="top|center"
+	    />
+   </LinearLayout>
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    	<ImageView
+	        android:id="@+id/cult"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/cult"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+	    	
+	  	<ImageView
+	        android:id="@+id/conn_ordi"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/conn_ordi"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+	  	<ImageView
+	        android:id="@+id/syst_num"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/syst_num"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+  </LinearLayout>
+  
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    	<ImageView
+	        android:id="@+id/maint"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/maint"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+	    	
+	  	<ImageView
+	        android:id="@+id/bur"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/bur"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+	  	<ImageView
+	        android:id="@+id/res"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/res"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+  </LinearLayout>
+  
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    	<ImageView
+	        android:id="@+id/algo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/algo"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+	    	
+	  	<ImageView
+	        android:id="@+id/prog_web"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/prog_web"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+	  	<ImageView
+	        android:id="@+id/base"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/base"
+	         android:gravity="center"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="15dp"
+	        />
+  </LinearLayout>
+  
+  <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+    <!--  <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="assambapasquier@yahoo.fr"
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="bottom|center"
+	    /> -->
+	<Button 
+	    android:layout_width = "fill_parent"
+	    android:layout_height = "wrap_content"
+	    android:id = "@+id/quit"
+	    android:text="Retour au menu principal"
+	    > 
+	</Button>
+    
+  </LinearLayout>
+</LinearLayout>

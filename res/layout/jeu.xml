@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity = "center_vertical|center_horizontal"
+    >
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+  >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/nomJoueur"
+	    android:textStyle="bold"
+	    android:background="#ffff00"
+	    android:gravity="center"
+	    android:layout_marginBottom="7dp"
+	    />
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/infosJoueur"
+	    android:textStyle="bold"
+	    android:textColor="#ffffff"
+	    android:background="#0245ff"
+	    android:gravity="center"
+	    android:layout_marginBottom="7dp"
+	    />
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/correction"
+	    android:textStyle="bold"
+	    android:gravity="center"
+	    android:layout_marginBottom="2dp"
+	    android:background="@drawable/border"
+	    />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  >
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/numQuestion"
+	    />
+</LinearLayout>
+
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+  >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/question"
+    android:textSize="18dip"
+    />
+
+<!--                  les bouton radio -->
+
+<RadioGroup 
+      android:id="@+id/reponses" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:orientation="vertical" 
+      android:layout_gravity="center_horizontal">
+      <!-- Radio Bouton 1 -->
+      <RadioButton 
+         android:id="@+id/rep1" 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+       >
+         <!-- android:checked="true" -->
+       
+      </RadioButton>
+      <!-- Bouton radio 2 -->
+      <RadioButton 
+         android:id="@+id/rep2" 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+      >
+      </RadioButton>
+      <!-- bouton radio 3 -->
+      <RadioButton 
+         android:id="@+id/rep3" 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+      >
+      </RadioButton>
+      
+      <RadioButton 
+         android:id="@+id/rep4" 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+      >
+      </RadioButton>
+   </RadioGroup>
+   <!--fin bouton radio -->
+</LinearLayout>
+
+   <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="5dp"
+    android:gravity="center_vertical|center_horizontal"
+    >
+<Button 
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:id = "@+id/repondre"
+    android:text="      "
+    style="@style/StyleButton3"
+    > 
+</Button>
+
+<Button 
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:id = "@+id/suivant"
+    android:text="       "
+    style="@style/StyleButton4"
+    android:layout_marginLeft="30dp"
+    > 
+</Button>
+</LinearLayout>
+   
+</LinearLayout>
